@@ -1,3 +1,164 @@
-html {
+html,
+body {
+  font-size: 100%;
+}
 
+body {
+  background: white;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+}
+
+div#wrapper {
+    width: 870px;
+    margin: 0 auto;
+    background: #ddd;
+}
+
+header {
+    height: 110px;
+    position: relative;
+}
+
+div#content {
+    background-color: #ddd;
+    padding: 5px;
+}
+
+#wrapper a:link, #wrapper a:visited {
+    text-decoration: none;
+    color: #b36b00;
+}
+
+#wrapper a:hover, #wrapper a:active {
+    color: #566440;
+    border-bottom: 1px dashed #566440;
+}
+
+div#logo {
+	
+}
+
+header nav {
+    position: absolute;
+    left: 120px;
+    bottom: 0px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    margin: 0;
+    padding:0;
+}
+
+nav li a:link, nav li a:visited {
+    font-family: "Trebuchet MS", sans-serif;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 5px 0 20px;
+    margin-right: 5px;
+    line-height: 25px;
+    border: none;
+}
+
+nav li a:hover, nav li a:active {
+    color: #f8b449;
+    background-position: left top;
+}
+
+nav ul li a.current {
+    margin-top: -5px;
+    height: 30px;
+    background-color: light-grey;
+    color: #aaa;
+    line-height: 25px;
+}
+
+nav ul li a.current:hover {
+    cursor: default;
+}
+
+#content div#mainContent {
+    align: center;
+    width: 630px;
+    margin: 0 0;
+    padding: 0 15px;
+}
+
+#mainContent p {
+    font-family: Georgia, serif;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    color: #000;
+    margin: 1ex 0;
+}
+
+#mainContent h1, #mainContent h2, #mainContent h3, #mainContent h4 {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#mainContent h1 {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #1b9d95;
+    margin: 0 0 .4ex 0;
+	align: center,
+}
+
+#mainContent h2 {
+    font-size: 1.2em;
+    color: #3C3809;
+    margin: .4ex 0;
+}
+
+#mainContent h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #666;
+    margin: 1ex 0 -.2ex 0;
+}
+
+#mainContent ul {
+    font-family: Georgia, serif;
+    font-size: 0.9em;
+    margin: 0 0 1.4ex 0;
+}
+
+footer {
+    clear: both;
+    background: transparent;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+footer p {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: .75em;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer a {
+    color: #1b9d95;
+    text-decoration: none;
+}
+
+footer strong {
+    color: #000000;
+    text-decoration: none;
 }
